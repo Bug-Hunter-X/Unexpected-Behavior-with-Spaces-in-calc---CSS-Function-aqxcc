@@ -1,0 +1,1 @@
+The solution is simple: remove any spaces around the `+` or `-` operators in the `calc()` function. For example, this is incorrect: `width: calc(100px + 20px);`  This is the correct way: `width: calc(100px+20px);`  Always ensure that there are no spaces between the numbers and the operators within the `calc()` function to ensure consistent and expected results.
